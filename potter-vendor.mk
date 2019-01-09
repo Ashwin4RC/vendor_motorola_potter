@@ -1236,7 +1236,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so:/system/vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0.so:/system/vendor/lib64/motorola.hardware.tv@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0_vendor.so:/system/vendor/lib64/motorola.hardware.tv@1.0_vendor.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libI420colorconvert.so:/system/vendor/lib64/libI420colorconvert.so
+    vendor/motorola/potter/proprietary/vendor/lib64/libI420colorconvert.so:/system/vendor/lib64/libI420colorconvert.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libasphere.so:/system/vendor/lib/soundfx/libasphere.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:/system/vendor/lib/soundfx/libaudiopreprocessing.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libbundlewrapper.so:/system/vendor/lib/soundfx/libbundlewrapper.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libdownmix.so:/system/vendor/lib/soundfx/libdownmix.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libeffectproxy.so:/system/vendor/lib/soundfx/libeffectproxy.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libldnhncr.so:/system/vendor/lib/soundfx/libldnhncr.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libmmieffectswrapper.so:/system/vendor/lib/soundfx/libmmieffectswrapper.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:/system/vendor/lib/soundfx/libqcomvisualizer.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:/system/vendor/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libreverbwrapper.so:/system/vendor/lib/soundfx/libreverbwrapper.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libspeakerbundle.so:/system/vendor/lib/soundfx/libspeakerbundle.so \
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libvisualizer.so:/system/vendor/lib/soundfx/libvisualizer.so
+
 # WFD
 PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/bin/wfdservice:system/bin/wfdservice \
@@ -1336,7 +1349,6 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/vendor/lib64/libqrtr.so:system/vendor/lib64/libqrtr.so \
      vendor/motorola/potter/proprietary/vendor/lib64/libqsocket.so:system/vendor/lib64/libqsocket.so \
      vendor/motorola/potter/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:system/vendor/lib64/com.quicinc.cne.api@1.1.so
-
 
 PRODUCT_PACKAGES += \
     TimeService \
