@@ -1248,7 +1248,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:/system/vendor/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/motorola/potter/proprietary/vendor/lib/soundfx/libreverbwrapper.so:/system/vendor/lib/soundfx/libreverbwrapper.so \
     vendor/motorola/potter/proprietary/vendor/lib/soundfx/libspeakerbundle.so:/system/vendor/lib/soundfx/libspeakerbundle.so \
-    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libvisualizer.so:/system/vendor/lib/soundfx/libvisualizer.so
+    vendor/motorola/potter/proprietary/vendor/lib/soundfx/libvisualizer.so:/system/vendor/lib/soundfx/libvisualizer.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libasphere.so:/system/vendor/lib64/soundfx/libasphere.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:/system/vendor/lib64/soundfx/libaudiopreprocessing.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libbundlewrapper.so:/system/vendor/lib64/soundfx/libbundlewrapper.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libdownmix.so:/system/vendor/lib64/soundfx/libdownmix.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libeffectproxy.so:/system/vendor/lib64/soundfx/libeffectproxy.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libldnhncr.so:/system/vendor/lib64/soundfx/libldnhncr.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:/system/vendor/lib64/soundfx/libqcomvisualizer.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:/system/vendor/lib64/soundfx/libqcomvoiceprocessing.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:/system/vendor/lib64/soundfx/libreverbwrapper.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libswdap.so:/system/vendor/lib64/soundfx/libswdap.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libvisualizer.so:/system/vendor/lib64/soundfx/libvisualizer.so
 
 # WFD
 PRODUCT_COPY_FILES += \
