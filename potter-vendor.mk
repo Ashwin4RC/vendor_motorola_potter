@@ -130,6 +130,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/potter/proprietary/etc/permissions/ConnectivityExt.xml:system/vendor/etc/permissions/ConnectivityExt.xml \
     vendor/motorola/potter/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/motorola/potter/proprietary/etc/permissions/qti_libpermissions.xml:system/vendor/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
@@ -1119,7 +1120,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0-impl-qti.so:system/vendor/lib64/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
@@ -1263,8 +1263,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:/system/vendor/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:/system/vendor/lib64/soundfx/libreverbwrapper.so \
     vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libswdap.so:/system/vendor/lib64/soundfx/libswdap.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libvisualizer.so:/system/vendor/lib64/soundfx/libvisualizer.so
-
+    vendor/motorola/potter/proprietary/vendor/lib64/soundfx/libvisualizer.so:/system/vendor/lib64/soundfx/libvisualizer.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:/system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:/system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:/system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 # WFD
 PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/bin/wfdservice:system/bin/wfdservice \
