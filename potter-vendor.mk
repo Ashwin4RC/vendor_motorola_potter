@@ -1375,7 +1375,18 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:system/vendor/lib64/vendor.qti.latency@2.0.so \
      vendor/motorola/potter/proprietary/vendor/lib64/libqrtr.so:system/vendor/lib64/libqrtr.so \
      vendor/motorola/potter/proprietary/vendor/lib64/libqsocket.so:system/vendor/lib64/libqsocket.so \
-     vendor/motorola/potter/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:system/vendor/lib64/com.quicinc.cne.api@1.1.so
+     vendor/motorola/potter/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:system/vendor/lib64/com.quicinc.cne.api@1.1.so \
+     vendor/motorola/potter/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
+     vendor/motorola/potter/proprietary/lib/libqti-iopd-client_system.so:system/lib/libqti-iopd-client_system.so \
+     vendor/motorola/potter/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+     vendor/motorola/potter/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
+     vendor/motorola/potter/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+     vendor/motorola/potter/proprietary/lib64/libqti-at.so:system/lib64/libqti-at.so \
+     vendor/motorola/potter/proprietary/lib64/libqti-iopd-client_system.so:system/lib64/libqti-iopd-client_system.so \
+     vendor/motorola/potter/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+     vendor/motorola/potter/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
+     vendor/motorola/potter/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+     vendor/motorola/potter/proprietary/etc/perf/whitelistedapps.xml:system/etc/perf/whitelistedapps.xml
 
 PRODUCT_PACKAGES += \
     TimeService \
