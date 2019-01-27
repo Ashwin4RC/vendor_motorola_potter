@@ -1386,7 +1386,20 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
      vendor/motorola/potter/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
      vendor/motorola/potter/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
-     vendor/motorola/potter/proprietary/etc/perf/whitelistedapps.xml:system/etc/perf/whitelistedapps.xml
+     vendor/motorola/potter/proprietary/etc/perf/whitelistedapps.xml:system/etc/perf/whitelistedapps.xml \
+     vendor/motorola/potter/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
+     vendor/motorola/potter/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
+     vendor/motorola/potter/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
+     vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
+     vendor/motorola/potter/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libqti-iopd.so:system/vendor/lib/libqti-iopd.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
+     vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:system/vendor/lib/vendor.qti.hardware.iop@1.0.so \
+     vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:system/vendor/lib/vendor.qti.hardware.iop@2.0.so \
+     vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so
 
 PRODUCT_PACKAGES += \
     TimeService \
