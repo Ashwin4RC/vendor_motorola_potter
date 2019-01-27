@@ -1399,7 +1399,8 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
      vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:system/vendor/lib/vendor.qti.hardware.iop@1.0.so \
      vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:system/vendor/lib/vendor.qti.hardware.iop@2.0.so \
-     vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so
+     vendor/motorola/potter/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so \
+     vendor/motorola/potter/proprietary/lib/soundfx/libqcomvoiceprocessingdescriptors.so:system/lib/soundfx/libqcomvoiceprocessingdescriptors.so
 
 PRODUCT_PACKAGES += \
     TimeService \
