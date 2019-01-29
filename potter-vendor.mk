@@ -1230,17 +1230,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:/system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:/system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:/system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-iopd-client_system.so:/system/vendor/lib64/libqti-iopd-client_system.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-perfd-client_system.so:/system/vendor/lib64/libqti-perfd-client_system.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-util_system.so:/system/vendor/lib64/libqti-util_system.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-util_system.so:/system/vendor/lib64/libqti-util_system.so \
-    vendor/motorola/potter/proprietary/bin/perfservice:/system/bin/perfservice \
-    vendor/motorola/potter/proprietary/etc/init/perfservice.rc:/system/etc/init/perfservice.rc \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:/system/vendor/lib64/vendor.qti.hardware.iop@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0-impl.so:/system/vendor/lib64/vendor.qti.hardware.iop@2.0-impl.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:/system/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:/system/vendor/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:/system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so \
@@ -1358,8 +1347,8 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:system/vendor/lib64/vendor.qti.latency@2.0.so \
      vendor/motorola/potter/proprietary/vendor/lib64/libqrtr.so:system/vendor/lib64/libqrtr.so \
      vendor/motorola/potter/proprietary/vendor/lib64/libqsocket.so:system/vendor/lib64/libqsocket.so \
-     vendor/motorola/potter/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:system/vendor/lib64/com.quicinc.cne.api@1.1.so
-
+     vendor/motorola/potter/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:system/vendor/lib64/com.quicinc.cne.api@1.1.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/libperfmgr.so:system/vendor/lib64/libperfmgr.so
 
 PRODUCT_PACKAGES += \
     TimeService \
@@ -1385,7 +1374,4 @@ PRODUCT_PACKAGES += \
     CNEService \
     libbtnv \
     WfdService \
-    WfdCommon \
-    UxPerformance \
-    QPerformance
-
+    WfdCommon
